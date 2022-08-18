@@ -17,5 +17,5 @@ For more information on PyRe visit - http://github.com/hackl/pyre
  "X2" is the peak load that the speciemen could resist in the respective loading case.
 
 ## Output
-On running the code, four set of outputs are drawn corresponding to the four limit state functions defined for each load factor.
-The Probability of Failure (Pf) are obtained for each of these limit state functions using First Order Reliability Method (FORM) and Second Order Reliability Method (SORM).
+On running the code, four set of outputs are generated corresponding to the four limit state functions defined for each load factor.
+The Probability of Failure (Pf) is obtained for each of these limit state functions using First Order Reliability Method (FORM) and Second Order Reliability Method (SORM).
