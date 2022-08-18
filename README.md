@@ -3,8 +3,8 @@
 The codes are applicable to find the probability of failure for Alkali Activated Concrete (AAC) and Portland Cement (PC) Concrete. For each type of concrete, there are three codes avaliable that represent the three loading cases: compression, splitting tension and flexure.
 
 ## Installation
-PyRe (Python Reliability) needs to be installed prior to running these codes. 
-For more information on this visit - http://github.com/hackl/pyre
+PyRe (Python Reliability) must first be installed to run these codes. 
+For more information on PyRe visit - http://github.com/hackl/pyre
 
 ## Input parameters
 "p_fac" is an array  consisting of the various load factors used.
@@ -18,4 +18,4 @@ For more information on this visit - http://github.com/hackl/pyre
 
 ## Output
 On running the code, four set of outputs are drawn corresponding to the four limit state functions defined for each load factor.
-
+The Probability of Failure (Pf) are obtained for each of these limit state functions using First Order Reliability Method (FORM) and Second Order Reliability Method (SORM).
