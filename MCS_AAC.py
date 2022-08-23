@@ -21,7 +21,7 @@ L_cyl = 200 # in mm
 D_cyl = 100 # in mm
 
 ### Simple Random Sampling for Monte Carlo Simulations
-fcm_28 = np.random.normal(data_28[0][0], data_28[0][0]*data_28[0][1]/100, n)
+fcm_28 = np.random.normal(data_28[0][0], data_28[0][1], n)
 flex_28 = 1000*np.random.normal(data_28[1][0], data_28[1][1], n) # in N
 spte_28 = 1000*np.random.normal(data_28[2][0], data_28[2][1], n) # in N
 comp_28 = 1000*np.random.normal(data_28[3][0], data_28[3][1], n) # in N
